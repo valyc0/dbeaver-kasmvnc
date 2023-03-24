@@ -3,6 +3,11 @@
 ### docker cli ([click here for more info](https://docs.docker.com/engine/reference/commandline/cli/))
 
 ```bash
+docker build -t valyc/dbeaver .
+
+```
+
+```bash
 docker run -d \
   --name=dbeaver \
   --security-opt seccomp=unconfined `#optional` \
