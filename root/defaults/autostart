@@ -1,0 +1,4 @@
+#! /bin/bash
+
+# Only start in no-sandbox mode on unpriv systems
+/tmp/dbeaver/dbeaver
