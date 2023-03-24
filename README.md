@@ -3,7 +3,7 @@
 ### docker cli ([click here for more info](https://docs.docker.com/engine/reference/commandline/cli/))
 
 ```bash
-	docker run -d \
+docker run -d \
   --name=dbeaver \
   --security-opt seccomp=unconfined `#optional` \
   -e PUID=1000 \
